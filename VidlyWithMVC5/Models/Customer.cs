@@ -15,6 +15,8 @@ namespace VidlyWithMVC5.Models
         public string Name{ get; set; }
         public bool IsSubscribedToNewsletter { get; set; }
         public MembershipType MembershipType { get; set; }
+        // foreign key
         public byte MembershipTypeId { get; set; }
+        public DateTime? Birthdate { get; set; }
     }
 }
